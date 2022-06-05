@@ -1,0 +1,84 @@
+h2 {
+    margin-left: 77px;
+    margin-top: 0.01%;
+}
+
+h1{
+    font-family: 'cooper black', 'sans-serif';
+    margin-left: 111px;
+    color: rgb(0, 0, 255);
+}
+
+.form {
+    width: 500px;
+    height: 240px;
+    margin-top: 150px;
+    margin-left: 400px;
+    background-color: #89f4fc;
+    padding: 20px;
+}
+
+.NISN {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+}
+
+.NISN input{
+    width: 300px;
+    height: 30px;
+    padding-left: 1px;
+}
+
+.NAMA {
+    margin-left: 8%;
+    margin-bottom: 20px;
+    margin-right: 8%;
+    text-align: center;
+}
+
+.NAMA input{
+    width: 300px;
+    height: 30px;
+    padding-left: 1px;
+}
+
+.tombol input{
+    width: 100px;
+    height: 25px;
+    margin-left: 100px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*responsive for login*/
+/*for tablet*/
+@media screen and (max-width: 768px) {
+    .form {
+        margin-left: 10%;
+    }
+}
+
+/*for mobile*/
+@media screen and (max-width: 576px) {
+    .form {
+        margin-left: 30px;
+        width: 400px;
+    }
+
+    h2 {
+        margin-left: 30px;
+    }
+
+    h1 {
+        margin-left: 64px;
+    }
+
+    .tombol input {
+        margin-left: 63px;
+    }
+}
